@@ -1,0 +1,39 @@
+.page-ourworks {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 300px 1fr;
+}
+
+.page-ourworks > aside {
+    margin-right: 30px;
+}
+
+.page-ourworks-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.page-ourworks-menu li {
+    margin-bottom: 2px;
+    background-color: #EDE9E9;
+}
+
+.page-ourworks-menu li > a {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #EDE9E9;
+    color: #000;
+    text-decoration: none;
+}
+
+.page-ourworks-menu li > a.active {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.page-ourworks-menu li > a:hover {
+    background-color: #b8b6b6;
+}
